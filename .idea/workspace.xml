@@ -1,6 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="db5b0250-a71f-47a3-8b9c-0f5a61cf86f8" name="Default Changelist" comment="Rabbit create and handler">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/RabbitRPC.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Try.js" beforeDir="false" afterPath="$PROJECT_DIR$/Try.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Room.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Room.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/error/DbError.js" beforeDir="false" afterPath="$PROJECT_DIR$/error/DbError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/sequelize.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/sequelize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Room.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Room.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/RoomApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/RoomApi.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1h1LgBSWXgipKCtMwrtIhAxXF3d" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db5b0250-a71f-47a3-8b9c-0f5a61cf86f8" name="Default Changelist" comment="" />
+      <created>1599173760344</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599173760344</updated>
+      <workItem from="1599173761467" duration="2205000" />
+      <workItem from="1599412121060" duration="31442000" />
+      <workItem from="1599802086204" duration="6468000" />
+      <workItem from="1600196986211" duration="21000" />
+      <workItem from="1600372990108" duration="641000" />
+      <workItem from="1600742136841" duration="11456000" />
+      <workItem from="1600883525499" duration="19157000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rabbit create and handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rabbit create and handler" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="748" y="266" width="424" height="483" key="FileChooserDialogImpl" timestamp="1600197004420">
+      <screen x="0" y="0" width="1920" height="1038" />
+    </state>
+    <state x="748" y="266" width="424" height="483" key="FileChooserDialogImpl/0.0.1920.1038@0.0.1920.1038" timestamp="1600197004420" />
+    <state x="2668" y="277" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1038@1920.0.1920.1080" timestamp="1599417506832" />
+    <state x="560" y="255" key="Vcs.Push.Dialog.v2" timestamp="1599587215547">
+      <screen x="0" y="0" width="1920" height="1038" />
+    </state>
+    <state x="560" y="255" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1038@0.0.1920.1038" timestamp="1599587215547" />
   </component>
 </project>

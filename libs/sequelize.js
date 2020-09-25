@@ -8,5 +8,4 @@ var sequelize = new Sequelize(
   seqParams.password,
   seqParams
 );
-
 module.exports = sequelize;

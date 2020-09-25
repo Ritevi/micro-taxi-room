@@ -17,6 +17,7 @@ class DbError extends Error {
         "internal server error"
       );
       dbError.error = err;
+      dbError.stack = err.stack;
       return dbError;
     }
   }
