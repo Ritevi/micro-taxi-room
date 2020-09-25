@@ -1,31 +1,27 @@
-const RoomController = require("../controllers/Room");
-const RoomIdController = require("../controllers/RoomId");
-const RoomIdSubscriberController = require("../controllers/RoomIdSubscriber");
-const RoomIdSubscriberIdController = require("../controllers/RoomIdSubscriberId");
-const RoomIdOwnerController = require("../controllers/RoomIdOwner");
+router = function (router) {
+    const RoomController = require("../controllers/Room");
+    const RoomIdController = require("../controllers/RoomId");
+    const RoomIdSubscriberController = require("../controllers/RoomIdSubscriber");
+    const RoomIdSubscriberIdController = require("../controllers/RoomIdSubscriberId");
+    const RoomIdOwnerController = require("../controllers/RoomIdOwner");
 
-router = function (RabbitApp) {
+    router.get("/room", RoomController.get);
+    router.post("/room", RoomController.post);
 
-    RabbitApp.consumeRPC("room.get",RoomController.get);
-    RabbitApp.consumeRPC("room.post",RoomController.post);
+    router.get("/room/:roomId", RoomIdController.get);
+    router.delete("/room/:roomId", RoomIdController.delete);
 
+    router.post(
+        "/room/:roomId/subscriber",
+        RoomIdSubscriberController.post
+    );
+    router.get("/room/:roomId/subscriber", RoomIdSubscriberController.get);
+    router.delete(
+        "/room/:roomId/subscriber/:userId",
+        RoomIdSubscriberIdController.delete
+    );
 
-    // RabbitApp.consume("room.post", RoomController.post);
-    //
-    // RabbitApp.get("/room/:roomId", RoomIdController.get);
-    // RabbitApp.delete("/room/:roomId", RoomIdController.delete);
-    //
-    // RabbitApp.post(
-    //     "/room/:roomId/subscriber",
-    //     RoomIdSubscriberController.post
-    // );
-    // RabbitApp.get("/room/:roomId/subscriber", RoomIdSubscriberController.get);
-    // RabbitApp.delete(
-    //     "/room/:roomId/subscriber/:userId",
-    //     RoomIdSubscriberIdController.delete
-    // );
-    //
-    // RabbitApp.post("/room/:roomId/owner", RoomIdOwnerController.post);
-    // RabbitApp.get("/room/:roomId/owner", RoomIdOwnerController.get);
+    router.post("/room/:roomId/owner", RoomIdOwnerController.post);
+    router.get("/room/:roomId/owner", RoomIdOwnerController.get);
 }
 module.exports = router;

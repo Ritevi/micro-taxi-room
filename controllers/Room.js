@@ -1,37 +1,26 @@
 const Room = require("../models/Room").Room;
 
-exports.post = async function (channel,msg) {
-  const { title, description, StartTime, userId } = JSON.parse(msg.content);
+exports.post = async function (req, res, next) {
+  const { title, description, StartTime, userId } = req.body;
   try {
     let room = await Room.createRoom(title, description, StartTime, userId);
-    await channel.sendToQueue(
-        msg.properties.replyTo,
-        Buffer.from(JSON.stringify(await room.getJSON())),
-        {correlationId: msg.properties.correlationId}
-    )
-    await channel.ack(msg);
+    res.json(await room.getJSON());
   } catch (err) {
-    msg.next();
+    next(err);
   }
 };
 
-exports.get = async function (channel,msg) {
+exports.get = async function (req, res, next) {
+  const { closed, offset, limit } = req.query;
   try {
-    const { closed, offset, limit } = JSON.parse(msg.content);
-
     let rooms = await Room.getRooms(limit, offset, closed);
     let result = await Promise.all(
       rooms.map(async (room) => {
         return room.getJSON();
       })
     );
-    await channel.sendToQueue(
-          msg.properties.replyTo,
-          Buffer.from(JSON.stringify(result)),
-          {correlationId: msg.properties.correlationId}
-        )
-    await channel.ack(msg);
+    res.json(result);
   } catch (err) {
-    msg.next();
+    next(err);
   }
 };
