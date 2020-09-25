@@ -20,16 +20,13 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:Express" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:express" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db5b0250-a71f-47a3-8b9c-0f5a61cf86f8" name="Default Changelist" comment="Rabbit create and handler">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Room.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Room.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/RoomApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/RoomApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/www.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
