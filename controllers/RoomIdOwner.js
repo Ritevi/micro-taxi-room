@@ -5,7 +5,7 @@ exports.post = async function (req, res, next) {
   const { roomId } = req.params;
   const { userId } = req.body;
   try {
-    let room = await Room.changeOwner();
+    let room = await Room.changeOwner(roomId,userId);
     res.json(await room.getJSON());
   } catch (err) {
     next(err);
@@ -13,13 +13,13 @@ exports.post = async function (req, res, next) {
 };
 
 //todo delete this
-exports.get = function (req, res, next) {
+exports.get =async function (req, res, next) {
   const { roomId } = req.params;
-  Room.getOwnerByRoomID(roomId)
-    .then((owner) => {
-      res.json(owner.getJSON());
-    })
-    .catch((err) => {
-      next(err);
-    });
+  try{
+    let owner =await Room.getOwnerByRoomID(roomId);
+    res.json(await owner.getJSON());
+  }catch (err){
+    next(err);
+  }
 };
+

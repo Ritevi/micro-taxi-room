@@ -25,8 +25,17 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db5b0250-a71f-47a3-8b9c-0f5a61cf86f8" name="Default Changelist" comment="Rabbit create and handler">
-      <change afterPath="$PROJECT_DIR$/bin/www.js" afterDir="false" />
+    <list default="true" id="db5b0250-a71f-47a3-8b9c-0f5a61cf86f8" name="Default Changelist" comment="fixed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Try.js" beforeDir="false" afterPath="$PROJECT_DIR$/Try.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Room.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Room.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/RoomIdOwner.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/RoomIdOwner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/RoomIdSubscriber.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/RoomIdSubscriber.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/sequelize.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/sequelize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Room.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Room.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/RoomApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/RoomApi.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +84,17 @@
       <workItem from="1600372990108" duration="641000" />
       <workItem from="1600742136841" duration="11456000" />
       <workItem from="1600883525499" duration="19157000" />
+      <workItem from="1601085111118" duration="1467000" />
+      <workItem from="1601515253881" duration="18119000" />
     </task>
+    <task id="LOCAL-00001" summary="fixed">
+      <created>1600998930001</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600998930001</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,17 +114,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rabbit create and handler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rabbit create and handler" />
+    <MESSAGE value="fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="748" y="266" width="424" height="483" key="FileChooserDialogImpl" timestamp="1600197004420">
+    <state x="748" y="266" width="424" height="483" key="FileChooserDialogImpl" timestamp="1601322657826">
       <screen x="0" y="0" width="1920" height="1038" />
     </state>
-    <state x="748" y="266" width="424" height="483" key="FileChooserDialogImpl/0.0.1920.1038@0.0.1920.1038" timestamp="1600197004420" />
+    <state x="748" y="266" width="424" height="483" key="FileChooserDialogImpl/0.0.1920.1038@0.0.1920.1038" timestamp="1601322657826" />
     <state x="2668" y="277" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1038@1920.0.1920.1080" timestamp="1599417506832" />
-    <state x="560" y="255" key="Vcs.Push.Dialog.v2" timestamp="1599587215547">
+    <state x="689" y="253" width="540" height="524" key="StructurePopup" timestamp="1601529569982">
       <screen x="0" y="0" width="1920" height="1038" />
     </state>
+    <state x="689" y="253" width="540" height="524" key="StructurePopup/0.0.1920.1038@0.0.1920.1038" timestamp="1601529569982" />
+    <state x="560" y="255" key="Vcs.Push.Dialog.v2" timestamp="1600998932812">
+      <screen x="0" y="0" width="1920" height="1038" />
+    </state>
+    <state x="560" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1038@0.0.1920.1038" timestamp="1600998932812" />
     <state x="560" y="255" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1038@0.0.1920.1038" timestamp="1599587215547" />
   </component>
 </project>

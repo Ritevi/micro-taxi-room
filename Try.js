@@ -108,3 +108,7 @@
 //
 // handler.handle(logger.log.bind(logger))({content:"123"});
 
+const User = require("./models/User").User;
+
+
+User.findById(1).then(console.log);

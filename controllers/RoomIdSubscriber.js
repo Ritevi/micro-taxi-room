@@ -17,7 +17,7 @@ exports.get = async function (req, res, next) {
     let jsonUsers = [];
     let users = await Room.getSubs(roomId);
     for (let user of users) {
-      await jsonUsers.push(await users.getJSON());
+      await jsonUsers.push(await user.getJSON());
     }
     res.json(jsonUsers);
   } catch (err) {
